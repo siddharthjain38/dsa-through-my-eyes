@@ -85,3 +85,12 @@ class Solution:
         
         # Return the head of the modified list
         return dummy.next
+```
+
+---
+
+### The fast and slow pointer technique is most commonly used with linked lists for problems like:
+
+- **Detecting cycles:** If there's a cycle in the list, the fast pointer will eventually meet the slow pointer.
+- **Finding the middle element:** The slow pointer will be at the middle when the fast pointer reaches the end.
+- **Finding the N-th node from the end:** The fast pointer is moved N steps ahead, and then both pointers move together to find the node from the end.
