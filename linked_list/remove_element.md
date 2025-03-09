@@ -15,6 +15,10 @@ Given the head of a singly linked list and an integer `val`, remove all nodes th
 
 ---
 
+## Rule of Thumb for Deleting a Node in a Linked List
+
+**Traverse the list to find the node to delete. Update the previous node's next pointer to skip the deleted node and point to the next one. If it's the head node, update the head to the next node.**
+
 ## Approach 1: Explicitly Handling the Head Node
 
 We start by checking if the head node has the target value (`val`). If it does, we adjust the `head` pointer to skip over the node, effectively removing it. Once that's done, we go through the rest of the list, skipping any nodes with the target `value` and making sure the links between the remaining `nodes` are updated properly. This approach treats the `head` node differently from the rest of the list, ensuring everything stays connected as it should.
