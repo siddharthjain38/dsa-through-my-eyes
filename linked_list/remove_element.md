@@ -2,7 +2,7 @@
 
 This repository contains two approaches for solving the problem of removing all nodes from a singly linked list that have a specific value. The problem is as follows:
 
-**Problem**:  
+### **Problem:**
 Given the head of a singly linked list and an integer `val`, remove all nodes that have `Node.val == val`, and return the new head of the list.
 
 ![Description of Image](../static/images/removelinked-list.jpg)
