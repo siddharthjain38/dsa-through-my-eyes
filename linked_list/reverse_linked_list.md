@@ -75,6 +75,10 @@ class Solution:
         return dummy.next
 ```
 
+### External Links 
+
+- ### [Reverse Linked List 2 (LeetCode 92) | Full simplified solution](https://www.youtube.com/watch?v=oDL8vuu2Q0E&t=1021s)
+
 ---
 
 #  Reverse Nodes in k-Group
