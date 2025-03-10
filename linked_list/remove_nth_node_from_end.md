@@ -32,22 +32,17 @@ This approach is efficient because it allows you to find the target element in j
    - The `fast` pointer will be used to move **B steps ahead** from the head to create a gap between `fast` and `slow`.
    - The `slow` pointer will eventually point to the node just before the one that needs to be removed.
 
-
 2. **Move the `fast` pointer**:
    - First, move the `fast` pointer **B steps ahead** so that the gap between `fast` and `slow` becomes B nodes.
-
 
 3. **Move both pointers**:
    - After the initial step, move both `fast` and `slow` pointers one step at a time until the `fast` pointer reaches the end of the list. This ensures that the `slow` pointer is positioned just before the node to be removed.
 
-
 4. **Remove the B-th node from the end**:
    - Once the `slow` pointer is in position, adjust its `next` pointer to skip the node after it (i.e., the node to be deleted).
 
-
 5. **Handle Edge Cases**:
    - If `B` is greater than the size of the list, this means we need to remove the head node. The dummy node technique will make sure this is handled smoothly by allowing you to always work with a non-null node before the head.
-
 
 6. **Return the result**:
    - Return `dummy.next`, which is the new head of the modified list (it may or may not be the same as the original head).
@@ -63,7 +58,7 @@ class ListNode:
         self.next = next
 
 class Solution:
-    def removeNthFromEnd(self, head: ListNode, B: int) -> ListNode:
+    def remove_nth_from_end(self, head: ListNode, B: int) -> ListNode:
         # Create a dummy node to handle edge cases like removing the head
         dummy = ListNode(0)
         dummy.next = head
