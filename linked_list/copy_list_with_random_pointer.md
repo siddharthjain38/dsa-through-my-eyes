@@ -13,7 +13,8 @@
 ![remove_nth_node_from_end.jpg](../static/images/copy_list_with_random_pointer.png)
 
 #### **Example:**
-Given the list: `1 -> 2 -> 3 -> 4 -> 5`, and `B = 2`, after removing the second node from the end, the list becomes: `1 -> 2 -> 3 -> 5`.
+
+Given the original list: `[[7,null],[13,0],[11,4],[10,2],[1,0]]`, the new copied list will have the same structure: `[[7,null],[13,0],[11,4],[10,2],[1,0]]`, with identical values and random pointers, but with entirely new nodes.
 
 ---
 
