@@ -38,11 +38,10 @@ Linked list problems are usually **not too tough** from an algorithm perspective
 
 ## Problems
 
-- [Copy List with Random Pointer](copy_list_with_random_pointer.md)
+- **[Reverse Linked List](reverse_linked_list.md)**
 - **[Copy List with Random Pointer](copy_list_with_random_pointer.md)**
-- [Copy List with Random Pointer](copy_list_with_random_pointer.md)
-- [Copy List with Random Pointer](copy_list_with_random_pointer.md) 
-
+- **[Remove Elements from Linked List](remove_element.md)**
+- **[Remove Nth Node From End of List](remove_nth_node_from_end.md)**
 
 ## Conclusion
 
