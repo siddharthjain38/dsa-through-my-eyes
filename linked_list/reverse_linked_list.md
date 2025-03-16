@@ -1,3 +1,54 @@
+# Reverse Linked List
+
+### Rule of Thumb for Deleting a Node in a Linked List
+
+1. **Start with three pointers**: Think of three helpers to guide you through the list:
+   - `prev`: This starts as nothing (like an empty placeholder).
+   - `current`: This starts at the very first node in the list.
+   - `next`: This is a temporary marker to hold the next node, so you don’t lose track as you go.
+
+2. **Go through the list and reverse the links**: As you move through the list, you need to reverse the direction of each node’s link. Normally, each node points to the next one, but you’ll make it point to the one before it instead. For this, you:
+   - Save the `next` node (so you don’t lose it),
+   - Reverse the `current` node’s link to point to `prev`,
+   - Then, move the `prev` and `current` pointers forward by one step.
+
+3. **Return `prev` as the new head**: After you've flipped all the links, `prev` will be pointing to what used to be the last node in the list. This node is now the first node in the reversed list, so `prev` becomes the new head, and that’s what you return.
+
+In simple terms, you're "rewriting" the arrows in the list so that each node points backwards instead of forwards, and the last node becomes the first.
+
+---
+
+### **Problem:**
+Given the head of a singly linked list, reverse the list, and return the reversed list.
+
+![reverse_linked_list.jpg](../static/images/reverse_linked_list.jpg)
+
+---
+
+### **Code Explanation**:
+
+```python
+class ListNode:
+    def __init__(self, val=None, next=None):
+        self.val = val
+        self.next = next
+
+class Solution:
+    def reverseList(self, head):
+        prev = None
+        current = head
+        
+        while current:
+            next_node = current.next  # Store next node
+            current.next = prev       # Reverse the current node's pointer
+            prev = current            # Move prev and current one step forward
+            current = next_node
+        
+        return prev  # prev will be the new head of the reversed list
+```
+
+---
+
 # Reverse Linked List II
 
 ### **Problem:**
