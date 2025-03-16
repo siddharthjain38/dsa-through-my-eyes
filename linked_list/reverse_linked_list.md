@@ -1,7 +1,5 @@
 # Reverse Linked List
 
----
-
 ### Rule of Thumb for Reversing a Linked List
 
 1. **Start with three pointers**: Think of three helpers to guide you through the list:
