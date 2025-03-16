@@ -38,9 +38,8 @@ Linked list problems are usually **not too tough** from an algorithm perspective
 
 ## Problems
 
-- #### [Copy List with Random Pointer](copy_list_with_random_pointer.md)
-- #### [Copy List with Random Pointer](copy_list_with_random_pointer.md)
-
+- [Copy List with Random Pointer](copy_list_with_random_pointer.md)
+- **[Copy List with Random Pointer](copy_list_with_random_pointer.md)**
 - [Copy List with Random Pointer](copy_list_with_random_pointer.md)
 - [Copy List with Random Pointer](copy_list_with_random_pointer.md) 
 
