@@ -1,6 +1,8 @@
 # Reverse Linked List
 
-### Rule of Thumb for Deleting a Node in a Linked List
+---
+
+### Rule of Thumb for Reversing a Linked List
 
 1. **Start with three pointers**: Think of three helpers to guide you through the list:
    - `prev`: This starts as nothing (like an empty placeholder).
