@@ -1,7 +1,14 @@
-# Remove Nth Node From End of List
+# Copy List with Random Pointer
 
 ### **Problem:**
-You are given a linked list and an integer `B`. Your task is to remove the B-th node from the end of the linked list and return the modified list.
+- You are given a linked list A
+- Each node in the linked list contains two pointers: a next pointer and a random pointer 
+- The next pointer points to the next node in the list 
+- The random pointer can point to any node in the list, or it can be NULL 
+- Your task is to create a deep copy of the linked list A 
+- The copied list should be a completely separate linked list from the original list, but with the same node values and random pointer connections as the original list 
+- You should create a new linked list B, where each node in B has the same value as the corresponding node in A 
+- The next and random pointers of each node in B should point to the corresponding nodes in B (rather than A)
 
 ![remove_nth_node_from_end.jpg](../static/images/copy_list_with_random_pointer.png)
 
