@@ -58,14 +58,6 @@ Given the head of a singly linked list and two integers left and right where lef
 
 ---
 
-## Rule of Thumb for Deleting a Node in a Linked List
-
-### **Approach:**
-
-#### **Steps to Solve:**
-
----
-
 ### **Code Explanation**:
 
 ```python
