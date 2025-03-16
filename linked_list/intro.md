@@ -36,6 +36,12 @@ Linked list problems are usually **not too tough** from an algorithm perspective
 
 ---
 
+## Problems
+
+- #### [Copy List with Random Pointer](copy_list_with_random_pointer.md)
+- [Copy List with Random Pointer](copy_list_with_random_pointer.md).
+
+
 ## Conclusion
 
 When working with linked lists, it’s important to focus on edge cases like an empty list or a single-node list. **Never forget to copy the head node** to a temporary variable before manipulating the list. Also, make sure to consider problem-specific quirks (like cycles or duplicates) to avoid bugs.
